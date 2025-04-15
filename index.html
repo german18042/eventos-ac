@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event - Espectáculos Artísticos y Eventos</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="Img/logo2.png" type="image/png">
+</head>
+<body>
+    <!-- Header y Navegación -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo2.png" alt="Alan Cabral Producciones" class="circular-logo">
+            </div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li><a href="#por-que-elegirnos">¿Por qué Elegirnos?</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section con Slider -->
+    <section id="inicio" class="hero">
+        <div class="slider-container">
+            <div class="slider" id="hero-slider">
+                <!-- Los slides se generarán dinámicamente con JavaScript -->
+            </div>
+            <div class="slider-navigation">
+                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <!-- Los dots se generarán dinámicamente con JavaScript -->
+                </div>
+                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/+5493416472447" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Por qué Elegirnos Section -->
+    <section id="por-que-elegirnos" class="section">
+        <div class="container">
+            <h2 class="section-title">¿Por qué Elegirnos?</h2>
+            <p class="section-subtitle">Descubre lo que nos hace diferentes y cómo podemos transformar tu evento</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-theater-masks"></i>
+                    </div>
+                    <h3>Producción artística de alto impacto</h3>
+                    <p>Diseñamos y ejecutamos espectáculos únicos que emocionan y elevan cualquier tipo de evento.</p>
+                    <div class="feature-line"></div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Publicidad creativa y efectiva</h3>
+                    <p>Creamos campañas publicitarias que captan la atención y conectan con tu público objetivo.</p>
+                    <div class="feature-line"></div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Equipo profesional y multidisciplinario</h3>
+                    <p>Contamos con expertos en producción, arte y comunicación que garantizan resultados de calidad.</p>
+                    <div class="feature-line"></div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Innovación constante</h3>
+                    <p>Apostamos por ideas frescas y creativas para ofrecer experiencias memorables y diferentes en cada proyecto.</p>
+                    <div class="feature-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <p class="section-subtitle">Ofrecemos una amplia variedad de servicios para hacer brillar tu evento</p>
+            <div class="services-container">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Producción de espectáculos artísticos</h3>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Campañas publicitarias</h3>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Gestión y coordinación de eventos</h3>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Producción audiovisual</h3>
+                </div>
+            </div>
+            <div class="center-btn">
+                <button class="btn btn-secondary">SABER MÁS</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-subtitle">Estamos listos para hacer realidad tu próximo evento</p>
+            <div class="contact-container">
+                <form id="contact-form" class="contact-form">
+                    <h3>Envíanos un mensaje</h3>
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto" name="asunto" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-primary">ENVIAR MENSAJE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quienes Somos Section -->
+    <section id="quienes-somos" class="section">
+        <div class="container">
+            <h2 class="section-title">¿Quiénes Somos?</h2>
+            <p class="section-subtitle">Conócenos mejor y descubre nuestra pasión por los eventos</p>
+            <div class="about-container">
+                <div class="about-content">
+                    <h3>Nuestra Historia</h3>
+                    <p>Nacimos con una idea clara: transformar eventos en experiencias inolvidables y llevar la creatividad al centro de la comunicación. Desde nuestros primeros proyectos, entendimos que el arte y la publicidad pueden unirse para contar historias poderosas, captar emociones y generar conexiones reales.</p>
+                    <p>Con el paso del tiempo, hemos crecido junto a nuestros clientes, adaptándonos a nuevos desafíos, explorando formatos innovadores y perfeccionando cada detalle de nuestras producciones. Hoy somos una empresa consolidada, pero con el mismo entusiasmo del primer día y una pasión constante por lo que hacemos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <img src="img/logo2.png" alt="Alan Cabral Producciones" class="circular-logo">
+                    </div>
+                    <p>Fusionamos arte, creatividad y comunicación para dar vida a eventos espectaculares.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#por-que-elegirnos">¿Por qué Elegirnos?</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle Principal 123, Ciudad</p>
+                    <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@event.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Event. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script para animaciones y funcionalidad -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Menú móvil
+            const menuToggle = document.getElementById('menu-toggle');
+            const mainNav = document.getElementById('main-nav');
+            
+            menuToggle.addEventListener('click', function() {
+                this.classList.toggle('active');
+                mainNav.classList.toggle('active');
+            });
+            
+            // Cerrar menú al hacer clic en un enlace
+            const navLinks = document.querySelectorAll('#main-nav a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    menuToggle.classList.remove('active');
+                    mainNav.classList.remove('active');
+                });
+            });
+            
+            // Header scroll effect
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+            
+            // Configuración del slider
+            const slides = [
+                {
+                    title: 'Event',
+                    subtitle: 'Los mejores Espectáculos artísticos',
+                    description: 'Fusionamos arte, creatividad y comunicación para dar vida a eventos espectaculares y campañas publicitarias que transmiten el mensaje de tu marca de forma auténtica y poderosa.',
+                    image: 'img/evento1.jpg'
+                },
+                {
+                    title: 'Creatividad',
+                    subtitle: 'Experiencias únicas y memorables',
+                    description: 'Diseñamos experiencias que conectan con tu audiencia y dejan una impresión duradera, combinando tecnología, arte y narrativa de forma innovadora.',
+                    image: 'img/evento2.jpg'
+                },
+                {
+                    title: 'Producción',
+                    subtitle: 'Eventos de alta calidad',
+                    description: 'Nuestro equipo de profesionales garantiza que cada detalle de tu evento sea perfecto, desde la planificación hasta la ejecución.',
+                    image: 'img/evento3.jpg'
+                },
+                {
+                    title: 'Comunicación',
+                    subtitle: 'Mensajes que impactan',
+                    description: 'Creamos campañas publicitarias que transmiten tu mensaje de forma efectiva y memorable, conectando con tu público objetivo.',
+                    image: 'img/evento4.jpg'
+                },
+                {
+                    title: 'Innovación',
+                    subtitle: 'Siempre a la vanguardia',
+                    description: 'Incorporamos las últimas tendencias y tecnologías para crear eventos y campañas que destacan por su originalidad y efectividad.',
+                    image: 'img/evento5.jpg'
+                },
+                {
+                    title: 'Resultados',
+                    subtitle: 'Objetivos cumplidos',
+                    description: 'Nos enfocamos en generar resultados tangibles para tu marca, midiendo el impacto y optimizando cada acción para maximizar el retorno de inversión.',
+                    image: 'img/evento6.jpg'
+                }
+            ];
+
+            const sliderContainer = document.querySelector('#hero-slider');
+            const dotsContainer = document.querySelector('.slider-dots');
+            const prevBtn = document.querySelector('.slider-btn.prev');
+            const nextBtn = document.querySelector('.slider-btn.next');
+            
+            // Limpiar el contenido inicial del slider
+            sliderContainer.innerHTML = '';
+            dotsContainer.innerHTML = '';
+            
+            // Crear slides dinámicamente
+            slides.forEach((slide, index) => {
+                const slideElement = document.createElement('div');
+                slideElement.classList.add('slide');
+                if (index === 0) slideElement.classList.add('active');
+                
+                slideElement.innerHTML = `
+                    <div class="slide-content">
+                        <h1>${slide.title}</h1>
+                        <h2>${slide.subtitle}</h2>
+                        <p>${slide.description}</p>
+                        <a href="#contacto" class="btn btn-primary">CONTÁCTANOS</a>
+                    </div>
+                    <div class="slide-image">
+                        <img src="${slide.image}" alt="${slide.title}">
+                    </div>
+                `;
+                
+                sliderContainer.appendChild(slideElement);
+                
+                // Crear dots para navegación
+                const dot = document.createElement('span');
+                dot.classList.add('dot');
+                if (index === 0) dot.classList.add('active');
+                dot.dataset.index = index;
+                dotsContainer.appendChild(dot);
+            });
+            
+            // Variables para controlar el slider
+            let currentSlide = 0;
+            const slideElements = document.querySelectorAll('.slide');
+            const dots = document.querySelectorAll('.dot');
+            
+            // Función para cambiar de slide
+            function goToSlide(index) {
+                // Remover clase active de todos los slides y dots
+                slideElements.forEach(slide => slide.classList.remove('active'));
+                dots.forEach(dot => dot.classList.remove('active'));
+                
+                // Activar el slide y dot correspondiente
+                slideElements[index].classList.add('active');
+                dots[index].classList.add('active');
+                
+                // Actualizar el índice actual
+                currentSlide = index;
+            }
+            
+            // Event listeners para los botones de navegación
+            prevBtn.addEventListener('click', function() {
+                let index = currentSlide - 1;
+                if (index < 0) index = slideElements.length - 1;
+                goToSlide(index);
+            });
+            
+            nextBtn.addEventListener('click', function() {
+                let index = currentSlide + 1;
+                if (index >= slideElements.length) index = 0;
+                goToSlide(index);
+            });
+            
+            // Event listeners para los dots
+            dots.forEach(dot => {
+                dot.addEventListener('click', function() {
+                    const index = parseInt(this.dataset.index);
+                    goToSlide(index);
+                });
+            });
+            
+            // Cambio automático de slides
+            setInterval(function() {
+                let index = currentSlide + 1;
+                if (index >= slideElements.length) index = 0;
+                goToSlide(index);
+            }, 7000);
+            
+            // Animación de elementos al hacer scroll
+            const animateOnScroll = function() {
+                const elements = document.querySelectorAll('.feature-card, .service-item, .contact-form, .about-content');
+                
+                elements.forEach(element => {
+                    const elementPosition = element.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+                    
+                    if (elementPosition < windowHeight * 0.85) {
+                        element.classList.add('visible');
+                    }
+                });
+            };
+            
+            // Iniciar animaciones al cargar la página
+            window.addEventListener('load', animateOnScroll);
+            window.addEventListener('scroll', animateOnScroll);
+            
+            // Validación del formulario de contacto
+            const contactForm = document.getElementById('contact-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    // Aquí iría la lógica para enviar el formulario
+                    alert('¡Gracias por tu mensaje! Te contactaremos pronto.');
+                    this.reset();
+                });
+            }
+        });
+    </script>
+</body>
+</html>

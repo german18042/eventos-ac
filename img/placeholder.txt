@@ -1,0 +1,9 @@
+Esta carpeta contiene las imágenes utilizadas en el sitio web.
+
+Por favor, agrega las siguientes imágenes para que el slider funcione correctamente:
+- evento1.jpg
+- evento2.jpg
+- evento3.jpg
+- evento4.jpg
+- evento5.jpg
+- evento6.jpg

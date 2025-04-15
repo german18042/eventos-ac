@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect x="10" y="10" width="780" height="280" fill="#000" stroke="#fff" stroke-width="5"/>
+  <text x="400" y="180" font-family="Arial" font-size="100" font-weight="bold" fill="#fff" text-anchor="middle">ALAN CABRAL</text>
+  <text x="650" y="350" font-family="Arial" font-size="50" font-weight="normal" fill="#fff" text-anchor="middle">PRODUCCIONES</text>
+</svg>
